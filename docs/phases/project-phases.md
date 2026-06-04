@@ -4,9 +4,9 @@
 
 | Phase | Name | Duration | Tasks | Status |
 |-------|------|----------|-------|--------|
-| 1 | Foundation & Core Sections | 1 week | 22 | 🔲 |
-| 2 | Advanced Sections & Animations | 1 week | 18 | 🔲 |
-| 3 | Polish, SEO & Launch | 3 days | 12 | 🔲 |
+| 1 | Foundation & Core Sections | 1 week | 22 | ✅ COMPLETED (2026-06-03) |
+| 2 | Advanced Sections & Animations | 1 week | 18 | ⏳ Partial — HowItWorks, FAQ, CtaBanner done |
+| 3 | Polish, SEO & Launch | 3 days | 12 | 🔲 Pending |
 
 ---
 

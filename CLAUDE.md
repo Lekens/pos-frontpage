@@ -55,7 +55,10 @@ Never use a form-only approach — WhatsApp is the primary conversion channel in
 
 ## Build Status
 
-**Not started** — See `docs/STATUS.md`
+**Phase 1 (Foundation & Core Sections): ✅ COMPLETED** — Project scaffold, Navbar, Button, GlowCard, HeroSection, StatsBar, FeatureShowcase, PricingSection, Footer, FaqSection, HowItWorks, CtaBanner; `constants.ts`, `animations.ts`, `robots.ts`, `sitemap.ts`  
+**Phase 2 (Advanced Sections): ⏳ PARTIAL** — Several sections built (HowItWorks, FaqSection, CtaBanner) but some remain (Testimonials, Contact page, WhatsApp section, OG image, screenshot assets)  
+**Phase 3 (Polish, SEO & Launch): 🔲 PENDING** — Lighthouse audit, domain setup, analytics, launch  
+**Current Status:** Core site structure is live. See `docs/STATUS.md` for details.
 
 ## Related Projects
 
