@@ -49,14 +49,14 @@ export default function FeatureShowcase() {
 
           {/* Feature grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {FEATURES.map((f, i) => (
-              <motion.div key={f.title} variants={fadeUp}>
+            {FEATURES.map((feature, i) => (
+              <motion.div key={feature.title} variants={fadeUp}>
                 <GlowCard className="h-full p-6 space-y-4">
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${ICON_COLORS[i]}`}>
-                    {ICONS[f.icon]}
+                    {ICONS[feature.icon]}
                   </div>
-                  <h3 className="text-white font-semibold text-lg">{f.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">{f.description}</p>
+                  <h3 className="text-white font-semibold text-lg">{feature.title}</h3>
+                  <p className="text-slate-400 text-sm leading-relaxed">{feature.description}</p>
                 </GlowCard>
               </motion.div>
             ))}

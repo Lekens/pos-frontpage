@@ -50,10 +50,10 @@ export default function PricingSection() {
 
               {/* Feature list */}
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {PRICING_FEATURES.map(f => (
-                  <li key={f} className="flex items-start gap-2.5 text-sm text-slate-300">
+                {PRICING_FEATURES.map(feature => (
+                  <li key={feature} className="flex items-start gap-2.5 text-sm text-slate-300">
                     <CheckCircle size={16} className="text-emerald-400 shrink-0 mt-0.5" aria-hidden="true" />
-                    {f}
+                    {feature}
                   </li>
                 ))}
               </ul>
